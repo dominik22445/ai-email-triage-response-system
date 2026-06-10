@@ -55,30 +55,6 @@ Router → Gmail (pracownik) → Weryfikacja → Gmail → Klient
 
 ---
 
-## **Przykładowe screenshoty**
-
-### Workflow w Make
-
-*(Dodaj screenshot scenariusza Make)*
-
-### Baza wiedzy
-
-*(Dodaj screenshot fragmentu Google Docs)*
-
-### Decyzja AI w formacie JSON
-
-*(Dodaj screenshot przykładowego wyniku JSON)*
-
-### Automatyczna odpowiedź
-
-*(Dodaj screenshot wiadomości wysłanej automatycznie)*
-
-### Odpowiedź wymagająca weryfikacji
-
-*(Dodaj screenshot wiadomości przekazanej do pracownika)*
-
----
-
 ## **Czego nauczyłem się podczas realizacji projektu**
 
 * integracji Gmail z Make,
