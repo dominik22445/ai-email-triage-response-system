@@ -1,0 +1,51 @@
+# AI Email Triage System
+
+## Opis projektu
+
+System wykorzystujący sztuczną inteligencję do analizy wiadomości email, generowania odpowiedzi oraz podejmowania decyzji, czy odpowiedź wymaga weryfikacji człowieka.
+
+Projekt wykorzystuje bazę wiedzy przechowywaną w Google Docs oraz model OpenAI do przygotowania odpowiedzi zgodnych z dostępną dokumentacją.
+
+## Problem biznesowy
+
+Wiele wiadomości klientów dotyczy prostych i powtarzalnych pytań, jednak część z nich wymaga indywidualnej oceny pracownika.
+
+Projekt automatyzuje analizę wiadomości oraz rozdziela zgłoszenia na:
+
+- możliwe do automatycznej obsługi,
+- wymagające weryfikacji człowieka.
+
+## Technologie
+
+- Make
+- OpenAI API
+- Gmail
+- Google Docs
+- JSON
+
+## Architektura rozwiązania
+
+Klient
+→ Gmail
+→ Google Docs (baza wiedzy)
+→ OpenAI API
+→ JSON (decyzja)
+→ Router
+
+Router:
+
+1. Automatyczna odpowiedź
+→ Gmail
+
+2. Odpowiedź do weryfikacji
+→ Gmail (pracownik)
+
+## Funkcje
+
+- analiza treści wiadomości email,
+- wykorzystanie bazy wiedzy zapisanej w Google Docs,
+- generowanie odpowiedzi przez AI,
+- ocena pewności odpowiedzi,
+- automatyczne podejmowanie decyzji o eskalacji,
+- obsługa modelu Human-in-the-Loop,
+- automatyczne wysyłanie odpowiedzi dla prostych spraw.
