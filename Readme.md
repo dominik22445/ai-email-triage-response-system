@@ -59,35 +59,35 @@ Router → Gmail (pracownik) → Weryfikacja → Gmail → Klient
 
 ### Workflow w Make
 
-![Workflow](AI%20email%20triage%20system-%20scenariusz%20w%20Make.png)
+![Workflow](make-workflow.png)
 
 ### Fragment bazy wiedzy
 
-![Baza wiedzy](AI%20email%20triage%20system-%20baza%20wiedzy.png)
+![Baza wiedzy](knowledge-base.png)
 
 ### Początek promptu systemowego
 
-![Początek promptu](AI%20email%20triage%20system-%20początek%20promptu.png)
+![Początek promptu](prompt-overview.png)
 
 ### Końcówka promptu systemowego
 
-![Końcówka promptu](AI%20email%20triage%20system-%20końcówka%20promptu.png)
+![Końcówka promptu](prompt-classification-rules.png)
 
 ### Wynik klasyfikacji – odpowiedź automatyczna
 
-![JSON automatyczna odpowiedź](AI%20email%20triage%20system-%20rezultat%20JSON-%20odp.%20automatyczna.png)
+![JSON automatyczna odpowiedź](automatic-response-result.png)
 
 ### Automatyczna odpowiedź dla klienta
 
-![Odpowiedź automatyczna](AI%20email%20triage%20system-%20odpowiedź%20automatyczna.png)
+![Odpowiedź automatyczna](automatic-response-email.png)
 
 ### Wynik klasyfikacji – wymagana weryfikacja
 
-![JSON do weryfikacji](AI%20email%20triage%20system-%20rezultat%20JSON-%20do%20weryfikacji.png)
+![JSON do weryfikacji](human-review-result.png)
 
 ### Odpowiedź przekazana do weryfikacji
 
-![Odpowiedź do weryfikacji](AI%20email%20triage%20system-%20odpowiedź%20mailowa%20do%20weryfikacji.png)
+![Odpowiedź do weryfikacji](human-review-email.png)
 
 ---
 
