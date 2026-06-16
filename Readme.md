@@ -53,6 +53,40 @@ Router → Gmail (pracownik) → Weryfikacja → Gmail → Klient
 * obsługa modelu Human-in-the-Loop,
 * automatyczne wysyłanie odpowiedzi dla prostych spraw.
 
+## Przykładowe działanie
+
+### Workflow w Make
+
+![Workflow](AI%20email%20triage%20system-%20scenariusz%20w%20Make.png)
+
+### Fragment bazy wiedzy
+
+![Baza wiedzy](AI%20email%20triage%20system-%20baza%20wiedzy.png)
+
+### Początek promptu systemowego
+
+![Początek promptu](AI%20email%20triage%20system-%20początek%20promptu.png)
+
+### Końcówka promptu systemowego
+
+![Końcówka promptu](AI%20email%20triage%20system-%20końcówka%20promptu.png)
+
+### Wynik klasyfikacji – odpowiedź automatyczna
+
+![JSON automatyczna odpowiedź](AI%20email%20triage%20system-%20rezultat%20JSON-%20odp.%20automatyczna.png)
+
+### Automatyczna odpowiedź dla klienta
+
+![Odpowiedź automatyczna](AI%20email%20triage%20system-%20odpowiedź%20automatyczna.png)
+
+### Wynik klasyfikacji – wymagana weryfikacja
+
+![JSON do weryfikacji](AI%20email%20triage%20system-%20rezultat%20JSON-%20do%20weryfikacji.png)
+
+### Odpowiedź przekazana do weryfikacji
+
+![Odpowiedź do weryfikacji](AI%20email%20triage%20system-%20odpowiedź%20mailowa%20do%20weryfikacji.png)
+
 ---
 
 ## **Czego nauczyłem się podczas realizacji projektu**
