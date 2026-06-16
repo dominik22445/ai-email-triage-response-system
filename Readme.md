@@ -53,6 +53,8 @@ Router → Gmail (pracownik) → Weryfikacja → Gmail → Klient
 * obsługa modelu Human-in-the-Loop,
 * automatyczne wysyłanie odpowiedzi dla prostych spraw.
 
+---
+
 ## Przykładowe działanie
 
 ### Workflow w Make
@@ -86,6 +88,20 @@ Router → Gmail (pracownik) → Weryfikacja → Gmail → Klient
 ### Odpowiedź przekazana do weryfikacji
 
 ![Odpowiedź do weryfikacji](AI%20email%20triage%20system-%20odpowiedź%20mailowa%20do%20weryfikacji.png)
+
+---
+
+## Ograniczenia
+
+* skuteczność odpowiedzi zależy od jakości i kompletności bazy wiedzy,
+* system odpowiada wyłącznie na podstawie dostarczonych informacji i nie posiada dostępu do zewnętrznych systemów firmy,
+* błędnie sformułowane lub niejednoznaczne wiadomości mogą zostać zakwalifikowane do weryfikacji przez człowieka,
+* system nie potwierdza terminów, dostępności ani innych danych dynamicznych bez odpowiednich informacji wejściowych,
+* odpowiedzi generowane przez AI mogą wymagać dodatkowej kontroli w przypadku nietypowych lub złożonych zapytań,
+* projekt nie obsługuje załączników ani analizy dokumentów przesyłanych przez klientów,
+* jakość klasyfikacji zależy od poprawności promptu oraz zdefiniowanych reguł decyzyjnych,
+* projekt został przygotowany jako demonstracja wykorzystania AI do automatyzacji obsługi klienta i modelu Human-in-the-Loop.
+
 
 ---
 
